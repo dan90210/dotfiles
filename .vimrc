@@ -1,6 +1,7 @@
 " Dan Hessler
 " ~/dotfiles/.vimrc
 " last updated 9-26-17
+" created a symlink using ln -s -r ~/dotfiles/.vimrc ~/.vimrc
 
 filetype plugin indent on
 syntax on

@@ -1,3 +1,5 @@
+# 10-2-17
+# created a symlink using ln -s -r ~/dotfiles/.bashrc ~/.bash_profile
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
