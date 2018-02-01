@@ -92,3 +92,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vimrc="vim ~/dotfiles/.vimrc"
+alias zshrc="vim ~/dotfiles/.zshrc"
+alias research="cd ~/Dropbox/research"
+alias home="cd ~/"
+alias ubuntu="ssh dan@165.227.196.153"
+alias tensorflow="source ~/tensorflow/bin/activate"
+alias bgsc="ssh hessledd3607@bgsc.uwec.edu"
+alias python="python3"
