@@ -6,8 +6,6 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-" uncomment if there is a colorscheme in ~/.vim/colors/
-colorscheme monokai 
 
 " let vim know it isn't vi
 set nocompatible
