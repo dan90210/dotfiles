@@ -93,6 +93,14 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+bindkey "\e[A" history-beginning-search-backward
+bindkey "\e[B" history-beginning-search-forward
+bindkey "\eOA" history-beginning-search-backward
+bindkey "\eOB" history-beginning-search-forward
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -103,4 +111,4 @@ alias home="cd ~/"
 alias ubuntu="ssh dan@165.227.196.153"
 alias tensorflow="source ~/tensorflow/bin/activate"
 alias bgsc="ssh hessledd3607@bgsc.uwec.edu"
-alias python="python3"
+alias cs330="cd Dropbox/CS/cs330"
