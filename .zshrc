@@ -7,7 +7,7 @@ export ZSH=/Users/dan/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="af-magic"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -111,4 +111,4 @@ alias home="cd ~/"
 alias ubuntu="ssh dan@165.227.196.153"
 alias tensorflow="source ~/tensorflow/bin/activate"
 alias bgsc="ssh hessledd3607@bgsc.uwec.edu"
-alias cs330="cd Dropbox/CS/cs330"
+alias cs330="cd ~/Dropbox/CS/cs330"
