@@ -21,7 +21,6 @@ set smarttab
 set shiftround
 set autoindent
 set smartindent
-set laststatus=2
 
 " get rid of buffers and stuff
 set hidden
@@ -54,6 +53,11 @@ set showmode
 set ignorecase
 set smartcase
 
+" statusbar settings
+"
+set laststatus=2
+
+
 " NERDTree settings
 "
 " remap open to Ctrl-n
@@ -80,3 +84,5 @@ augroup java
     au BufNewFile *.java 0r $HOME/.vim/.skeleton.java
 augroup end
 
+" YouCompleteMe settings
+let g:ycm_autoclose_preview_window_after_completion = 1
