@@ -4,16 +4,16 @@ echo "Before proceeding!!! Ensure you have installed ohmyz.sh and have changed y
 echo "ctrl-C if you need to do this, otherwise press enter"
 read
 
-# Ubuntu specific install commands
-sudo apt install tmux
-sudo apt install git
-sudo apt install cmake
-sudo apt install cmake3
-sudo apt install python
-sudo apt install python3
-sudo apt-get install python-dev python3-dev
-sudo apt install curl
-sudo apt install vim
+# Mac specific commands
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew install git
+brew install curl
+brew install cmake
+brew install python
+brew install python3
+brew install vim
 
 # Git commands (non OS specific)
 
