@@ -1,12 +1,17 @@
 #!/bin/zsh
 
+# Ubuntu specific install commands
 sudo apt install tmux
 sudo apt install git
 sudo apt install cmake
+sudo apt install cmake3
 sudo apt install python
 sudo apt install python3
+sudo apt-get install python-dev python3-dev
 sudo apt install curl
 sudo apt install vim
+
+# Git commands (non OS specific)
 
 git clone https://github.com/dan90210/dotfiles.git
 
@@ -28,4 +33,8 @@ git clone https://github.com/Chiel92/vim-autoformat.git ~/.vim/bundle/vim-autofo
 
 git clone https://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround
 
-
+git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/youcompleteme
+echo "You must still finish installing YouCompleteMe!!!"
+echo "Navigate to ~/.vim/bundle/youcompleteme"
+echo "Then run ./install.py"
+echo "Setup is complete!! (unless there were errors....)"
