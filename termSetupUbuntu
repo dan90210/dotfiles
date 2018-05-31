@@ -1,0 +1,31 @@
+#!/bin/zsh
+
+sudo apt install tmux
+sudo apt install git
+sudo apt install cmake
+sudo apt install python
+sudo apt install python3
+sudo apt install curl
+sudo apt install vim
+
+git clone https://github.com/dan90210/dotfiles.git
+
+rm ~/.vimrc
+rm ~/.zshrc
+
+ln -s -r ~/dotfiles/.vimrc ~/.vimrc
+
+ln -s -r ~/dotfiles/.zshrcUbuntu ~/.zshrc
+
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+
+git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark
+
+git clone https://github.com/Chiel92/vim-autoformat.git ~/.vim/bundle/vim-autoformat
+
+git clone https://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround
+
+
