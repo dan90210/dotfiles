@@ -6,7 +6,11 @@ execute pathogen#infect()
 filetype plugin indent on
 syntax enable
 set background=dark
-colorscheme codedark
+set t_Co=256
+set t_ut=
+" colorscheme codedark
+" colorscheme xoria256
+colorscheme dracula
 
 " let vim know it isn't vi
 set nocompatible
@@ -26,8 +30,8 @@ set smartindent
 set hidden
 set autoread
 
-" relative line numbers
-set number 
+" line numbers
+set number
 
 " set a column to show when past 80 chars
 " highlight ColorColumn ctermbg=magenta
@@ -57,11 +61,20 @@ set smartcase
 "
 set laststatus=2
 
-
 " NERDTree settings
 "
 " remap open to Ctrl-n
 map <C-n> :NERDTreeToggle<CR>
+
+" Tab Completion
+let g:SuperTabDefaultCompletionType = "context"
+
+" add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" ================================== "
+"           SKELETON FILES           "
+" ================================== "
 
 " create an html skeleton when creating an html file
 nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
@@ -83,6 +96,3 @@ augroup end
 augroup java
     au BufNewFile *.java 0r $HOME/.vim/.skeleton.java
 augroup end
-
-" YouCompleteMe settings
-let g:ycm_autoclose_preview_window_after_completion = 1
