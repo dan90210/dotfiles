@@ -26,10 +26,6 @@ set shiftround
 set autoindent
 set smartindent
 
-" get rid of buffers and stuff
-set hidden
-set autoread
-
 " line numbers
 set number
 
