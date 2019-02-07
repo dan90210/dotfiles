@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vimrc="vim ~/dotfiles/.vimrc"
-alias bgsc="ssh -C -Y hessledd3607@bgsc.uwec.edu"
+alias vimrc="vi ~/dotfiles/.vimrc"
+alias bgsc="ssh hessledd3607@bgsc.uwec.edu"
 alias thing="ssh hessledd3607@thing3.cs.uwec.edu"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME"
