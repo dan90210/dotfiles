@@ -31,7 +31,7 @@ set number
 
 " set a column to show when past 80 chars
 " highlight ColorColumn ctermbg=magenta
-" set colorcolumn=81
+set colorcolumn=81
 
 " remap the ; to :
 nnoremap ; :
@@ -61,12 +61,16 @@ set laststatus=2
 "
 " remap open to Ctrl-n
 map <C-n> :NERDTreeToggle<CR>
+map <C-l> :SyntasticToggleMode<CR>
 
 " Tab Completion
 let g:SuperTabDefaultCompletionType = "context"
 
 " add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
+
+" allow mouse scrolling
+:set mouse=a
 
 " ================================== "
 "           SKELETON FILES           "
