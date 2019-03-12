@@ -4,7 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/dan/.oh-my-zsh"
 export PYTHON_PATH=/usr/local/lib/python3.7/site-packages
-export PYTHONPATH="/Users/dan/bertini_real/python/"
+export PYTHONPATH="$HOME/bertini_real/python/"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
