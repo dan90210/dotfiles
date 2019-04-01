@@ -72,6 +72,9 @@ let g:NERDSpaceDelims = 1
 " allow mouse scrolling
 :set mouse=a
 
+" delete whitespace
+map <C-w> :%s/\s\+$//e<CR>
+
 " ================================== "
 "           SKELETON FILES           "
 " ================================== "
